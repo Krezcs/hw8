@@ -11,7 +11,7 @@ def get_birthdays_per_week(users):
         birthdays_per_week[birthday_day_of_week].append(user)
     return birthdays_per_week
 
-# Приклад виклику функції зі списком користувачів
+
 users = [
     {'name': 'John', 'birthday': datetime.date(1995, 1, 15)},
     {'name': 'Jane', 'birthday': datetime.date(1987, 6, 25)},
